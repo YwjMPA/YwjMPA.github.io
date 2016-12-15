@@ -1,0 +1,121 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+}
+
+header {
+	border-bottom: 1px solid #efeaea;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;	
+}
+
+.navList{
+	margin: 0;
+}
+
+.navItem{
+	display: inline;
+}
+
+main {
+	margin: 20px auto;
+}
+
+.portfolio {
+	
+}
+
+.project {
+	border: 1px solid black;
+	min-height:98px;
+}
+
+figure {
+	margin: 0;
+}
+
+.projectImage {
+	width: 100%;
+}
+
+footer{
+	margin: 0 auto;
+	text-align: center;
+	border-top: 1px solid #efeaea;
+	padding: 10px;
+	font-family: monospace;
+}
+
+.github {
+	color: #995eef;
+}
+/*grid system*/
+.container {
+	width: 80%;	
+	margin: 0 auto;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-1 {
+	width: 8.33%;
+}
+
+.col-2 {
+	width: 16.67%;
+}
+`
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-5 {
+	width: 41.67%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.33%;
+}
+
+.col-8 {
+	width: 66.67%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33%;
+}
+
+.col-11 {
+	width: 91.67%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+
